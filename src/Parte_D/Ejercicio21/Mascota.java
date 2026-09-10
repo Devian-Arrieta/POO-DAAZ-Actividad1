@@ -26,7 +26,7 @@ class Main{
         mascota1.nombre = "Rio";
         mascota1.especie = "Perro";
         mascota1.edad = 1;
-        
+
         Mascota mascota2 = new Mascota();
         mascota2.nombre = "REY";
         mascota2.especie = "Perro";
