@@ -74,7 +74,7 @@ class Main {
         ventilador.subirVelocidad();
         System.out.print("DESPUÉS DE SUBIR A NIVEL MÁXIMO: ");
         ventilador.mostrarEstado();
-        
+
         ventilador.apagar();
         System.out.print("DESPUÉS DE APAGAR: ");
         ventilador.mostrarEstado();
