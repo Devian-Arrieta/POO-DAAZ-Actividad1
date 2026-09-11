@@ -7,7 +7,7 @@ public class Estudiante {
     public Estudiante(){
 
     }
-    
+
     public Estudiante(String nombre, String codigo){
         this.nombre = nombre;
         this.codigo = codigo;
