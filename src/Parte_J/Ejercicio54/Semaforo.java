@@ -33,7 +33,7 @@ class Main {
 
         semaforo.cambiarColor("Verde");
         semaforo.mostrarEstado();
-        
+
         semaforo.cambiarColor("Azul");
         semaforo.mostrarEstado();
     }
