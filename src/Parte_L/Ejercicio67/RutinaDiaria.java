@@ -12,7 +12,7 @@ public class RutinaDiaria {
             "Género de musica favorito: " + generoDeMusicaFavorito
         );
     }
-    
+
     public void escucharMusica(String cancion) {
         this.actividadActual = "Escuchando música";
         System.out.println(nombre + " está escuchando la canción '" + cancion + "' (" + generoDeMusicaFavorito + ").");
