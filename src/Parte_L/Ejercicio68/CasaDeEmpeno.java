@@ -12,7 +12,7 @@ public class CasaDeEmpeno {
             this.capital -= valorPrestamo;
             this.articulosEmpenados++;
             System.out.println("Se recibió '" + articulo + "' y se otorgó un préstamo de $" + valorPrestamo + ".");
-        } 
+        }
         else {
             System.out.println("Capital insuficiente en " + nombre + " para prestar $" + valorPrestamo + " por: " + articulo + ".");
         }
