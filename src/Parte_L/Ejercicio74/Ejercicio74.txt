@@ -1,0 +1,15 @@
+En los ejercicios anteriores se pedia crear constructor parametrizado, vacio y copia, donde
+
+1. constructor vacio: No recibe parámetros y se crea el objeto con valores iniciales
+
+2. constructo parametrizado: Recibe parámetros para inicializar el objeto con valores específicos
+
+3. constructor copia: Crea un objeto copiando los datos de otro objeto
+
+Donde considero que el constructor parametrizado completo es la forma más intuitiva y clara cuando se
+quiere aprender a programar objetos. Para un estudiante principiante, esta forma hace clara la relación
+entre los datos que recibe la instrucción new y los atributos internos asignados mediante la palabra
+clave this, esto evita confusiones de variables en vacias que suelen ocurrir con el constructor vacío
+si se olvida asignarlas manualmente en el main, además, los entornos de desarrollo (IDE) obligan a pasar
+todos los parámetros definidos en la firma, sirviendo como una guía visual inmediata que impide errores
+por omisión de datos
