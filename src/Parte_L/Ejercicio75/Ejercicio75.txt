@@ -1,0 +1,28 @@
+En conclusión, una clase es como un modelo o plantilla que nos sirve para definir
+cómo será un tipo de entidad. Una clase no es un objeto real ni una variable, sino
+que indica qué características (atributos) y qué acciones (métodos) tendrá un
+objeto. Es decir, podemos imaginar una clase como un molde para hacer
+galletas, ya que el molde indica qué forma tendrán las galletas, pero no es una
+galleta en sí, de esta misma manera, la clase solo define la estructura de lo que
+vamos a crear.
+
+Por otro lado, un objeto es el resultado de utilizar esa clase, es decir, es una
+entidad concreta que tiene sus propios valores y características. Siguiendo el
+ejemplo anterior, si la clase es el molde, el objeto sería la galleta que se hizo con
+ese molde, cada objeto puede tener valores diferentes y funcionar de manera
+independiente, por lo que si cambiamos un objeto, los demás no se ven afectados.
+
+Para pasar de la clase a un objeto real, utilizamos la instanciación. Instanciar
+significa crear un objeto a partir de una clase, podemos verlo como usar el molde
+para fabricar una galleta, instanciar es el proceso de crearla y el objeto es el
+resultado y en Java, esto se hace utilizando la palabra new, que indica que se
+debe crear un nuevo objeto con su propio espacio en memoria.
+
+Finalmente, las clases son una parte fundamental de la Programación Orientada
+a Objetos (POO) en Java, porque permiten organizar mejor la información y las
+acciones de un programa. En lugar de tener los datos y las funciones separados y
+desordenados, las clases permiten agruparlos dentro de una misma entidad, esto
+hace que el código sea más fácil de reutilizar, organizar y mantener. En pocas
+palabras, podemos crear una clase como modelo y luego utilizarla para crear muchos
+objetos diferentes a partir de ella.
+
