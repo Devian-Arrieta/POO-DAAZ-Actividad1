@@ -1,0 +1,16 @@
+Creamos 3 clases que simulan o traen formas de la vida real a programación, ContextoAcademico,
+RutinaDiaria y CasaDeEmpeno, las cuales funcionan como plantillas o bases que definen las reglas
+de cada uno de ellos, ya que a partir de estas plantillas dimos pudimos crear objetos concretos
+en la memoria como estudiante, persona y negocio. La razón importante de separar la clase del
+objeto es la independencia de estado, ya que la clase define la estructura, como por ejemplo un
+molde de una galleta, pero cada objeto almacena sus propios datos de forma aislada, es decir, a
+base del ejemplo anterior serían las galletas ya hechas por el molde, permitiendo así que como
+la clase de CasaDeEmpeno, una casa de empeño gestione su propio capital sin alterar los demás
+objetos (o las demás casas de empeño).
+
+Cada objeto contiene atributos que guardan su memoria interna, como el nombre, la carrera, la
+actividadActual o el capital financiero y para manipular esta información definimos comportamientos
+o métodos como mostrarInfo(), escucharMusica() y empenarArticulo(). Los métodos existen para aplicar
+reglas de negocio sobre los atributos; por ejemplo, el método de empeño no solo reduce el dinero,
+sino que evalúa mediante una condición si existe capital suficiente antes de registrar la prenda
+y modificar el inventario.
